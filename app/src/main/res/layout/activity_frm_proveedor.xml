@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/purple_500"
+                tools:context=".FrmProveedor">
+
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+            <EditText
+                    android:id="@+id/txtnroruc"
+                    android:layout_width="304dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Ruc"
+                    android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+            <EditText
+                    android:id="@+id/txtrazonsocial"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Razón Social"
+                    android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+            <EditText
+                    android:id="@+id/txtrubro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Rubro"
+                    />
+        </TableRow>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+            <EditText
+                    android:id="@+id/txtdireccion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Dirección"
+                    />
+        </TableRow>
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+            <EditText
+                    android:id="@+id/txtcorreo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Correo"
+                     />
+        </TableRow>
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+            <EditText
+                    android:id="@+id/txttelefono"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Teléfono"
+                    android:inputType="phone" />
+        </TableRow>
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+            <Button
+                    android:id="@+id/btnguardar"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/teal_200"
+                    android:layout_height="wrap_content"
+                    android:text="GUARDAR REGISTRO" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
